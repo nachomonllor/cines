@@ -137,30 +137,56 @@ const cinesMock = [{
         foto: "https://www.lavanguardia.com/r/GODO/LV/p7/WebSite/2020/03/13/Recortada/img_fmartinez_20200312-195239_imagenes_lv_getty_gettyimages-143923007-kPYB-X5DBUGEGVA3YHWGI-992x558@LaVanguardia-Web.jpg",
         paisOrigen: "Argentina",
         peliculas: [{
-            id: 1,
-            nombre: "Rapido y Furiosos 4521",
-            tipo: "otros",
-            fechaEstreno: "2000-12-03",
-            cantidadPublico: 300000,
-            fotoPelicula: "https://static.misionesonline.news/wp-content/uploads/2020/03/16084200/rapidos-y-furiosos-9-coronavirus.jpeg",
-            actores: [{
-                    id: 1,
-                    nombre: "Vin Disel",
-                    apellido: "Perez",
-                    sexo: "Masculino",
-                    fechaNacimiento: "04/06/2000",
-                    foto: "https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2020/03/12164026/Vin_Diesel_Countdown_Rep2.jpg"
-                },
-                {
-                    id: 2,
-                    nombre: "Paul",
-                    apellido: "Walker",
-                    sexo: "Masculino",
-                    fechaNacimiento: "04/06/2000",
-                    foto: "https://zolfm.com/admin/imagenes/paul_walker_1-1572955487.jpg"
-                }
-            ]
-        }]
+                id: 2,
+                nombre: "Rocky 6",
+                tipo: "otros",
+                fechaEstreno: "2000-12-03",
+                cantidadPublico: 300000,
+                fotoPelicula: "../../assets/rocky6.jpg",
+                actores: [{
+                        id: 1,
+                        nombre: "Sylvester",
+                        apellido: "Es talon",
+                        sexo: "Masculino",
+                        fechaNacimiento: "04/06/2000",
+                        foto: "../../assets/sylvester.jpg"
+                    },
+                    {
+                        id: 2,
+                        nombre: "Mason",
+                        apellido: "Frontera Dixon",
+                        sexo: "Masculino",
+                        fechaNacimiento: "04/06/2000",
+                        foto: "../../assets/mason.jpg"
+                    }
+                ]
+            },
+            {
+                id: 2,
+                nombre: "Rapido y Furiosos 4521",
+                tipo: "otros",
+                fechaEstreno: "2000-12-03",
+                cantidadPublico: 300000,
+                fotoPelicula: "https://static.misionesonline.news/wp-content/uploads/2020/03/16084200/rapidos-y-furiosos-9-coronavirus.jpeg",
+                actores: [{
+                        id: 1,
+                        nombre: "Vin Disel",
+                        apellido: "Perez",
+                        sexo: "Masculino",
+                        fechaNacimiento: "04/06/2000",
+                        foto: "https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2020/03/12164026/Vin_Diesel_Countdown_Rep2.jpg"
+                    },
+                    {
+                        id: 2,
+                        nombre: "Paul",
+                        apellido: "Walker",
+                        sexo: "Masculino",
+                        fechaNacimiento: "04/06/2000",
+                        foto: "https://zolfm.com/admin/imagenes/paul_walker_1-1572955487.jpg"
+                    }
+                ]
+            }
+        ]
     },
     {
         id: 5,
@@ -193,7 +219,7 @@ const cinesMock = [{
                 ]
             },
             {
-                id: 1,
+                id: 2,
                 nombre: "Volver al futuro",
                 tipo: "otros",
                 fechaEstreno: "1955-10-10",
@@ -201,11 +227,11 @@ const cinesMock = [{
                 fotoPelicula: "../../assets/volver.jpg",
                 actores: [{
                         id: 1,
-                        nombre: "Martin Mac Flay",
-                        apellido: "Perez",
+                        nombre: "Miguel",
+                        apellido: "Zorro",
                         sexo: "Masculino",
                         fechaNacimiento: "04/06/2000",
-                        foto: "../../miguel.jpg"
+                        foto: "../../assets/miguel.jpg"
                     },
                     {
                         id: 2,
