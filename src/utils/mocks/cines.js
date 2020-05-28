@@ -16,7 +16,9 @@ const cinesMock = [{
                     apellido: "Perez",
                     sexo: "Masculino",
                     fechaNacimiento: "04/06/2000",
-                    foto: "https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2020/03/12164026/Vin_Diesel_Countdown_Rep2.jpg"
+                    foto: "https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2020/03/12164026/Vin_Diesel_Countdown_Rep2.jpg",
+
+
                 },
                 {
                     id: 2,
@@ -137,7 +139,7 @@ const cinesMock = [{
         foto: "https://www.lavanguardia.com/r/GODO/LV/p7/WebSite/2020/03/13/Recortada/img_fmartinez_20200312-195239_imagenes_lv_getty_gettyimages-143923007-kPYB-X5DBUGEGVA3YHWGI-992x558@LaVanguardia-Web.jpg",
         paisOrigen: "Argentina",
         peliculas: [{
-                id: 2,
+                id: 1,
                 nombre: "Rocky 6",
                 tipo: "otros",
                 fechaEstreno: "2000-12-03",
@@ -242,7 +244,34 @@ const cinesMock = [{
                         foto: "../../assets/emmet.jpg"
                     }
                 ]
+            },
+
+            {
+                id: 3,
+                nombre: "Corazon de Leon",
+                tipo: "otros",
+                fechaEstreno: "1955-10-10",
+                cantidadPublico: 300000,
+                fotoPelicula: "../../assets/corazon.jpg",
+                actores: [{
+                        id: 1,
+                        nombre: "Chanclon",
+                        apellido: "Vandam",
+                        sexo: "Masculino",
+                        fechaNacimiento: "04/06/2000",
+                        foto: "../../assets/chanclon.jpg"
+                    },
+                    {
+                        id: 2,
+                        nombre: "Harrison",
+                        apellido: "Page",
+                        sexo: "Masculino",
+                        fechaNacimiento: "04/06/1800",
+                        foto: "../../assets/harrison.png"
+                    }
+                ]
             }
+
 
         ]
     },
