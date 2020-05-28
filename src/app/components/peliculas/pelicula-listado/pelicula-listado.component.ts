@@ -13,6 +13,7 @@ export class PeliculaListadoComponent {
   pelicula: Pelicula;
   @Input() peliculas: Pelicula[];
   actores: Actor[];
+  //para acceder al componente hijo para poder ejecutar los metodos y ver las propiedades
   @ViewChild(PeliculaTablaComponent, { static: true }) peliculaTabla: PeliculaTablaComponent;
   constructor() { }
   onSelected(pelicula: Pelicula) {

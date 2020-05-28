@@ -34,6 +34,7 @@ export class PeliculaAltaComponent implements OnInit {
   ngOnInit(): void {
   }
   onSubmit() {
+    // si viene un queryparam de cineId voy a actualizar el cine sino hago un alta de peliculas normalmente
     if ( this.cine ) {
       const pelicula = this.createPelicula();
       this.cine.peliculas.push(pelicula);
