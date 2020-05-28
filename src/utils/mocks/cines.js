@@ -16,6 +16,7 @@ const cinesMock = [{
                     apellido: "Perez",
                     sexo: "Masculino",
                     fechaNacimiento: "04/06/2000",
+                    paisOrigen: "estados Unidos",
                     foto: "https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2020/03/12164026/Vin_Diesel_Countdown_Rep2.jpg",
 
 
@@ -26,6 +27,7 @@ const cinesMock = [{
                     apellido: "Walker",
                     sexo: "Masculino",
                     fechaNacimiento: "04/06/2000",
+                    paisOrigen: "estados Unidos",
                     foto: "https://zolfm.com/admin/imagenes/paul_walker_1-1572955487.jpg"
                 }
             ]
@@ -42,6 +44,7 @@ const cinesMock = [{
                 apellido: "Reinolds",
                 sexo: "Masculino",
                 fechaNacimiento: "22/02/1996",
+                paisOrigen: "estados Unidos",
                 foto: "https://upload.wikimedia.org/wikipedia/commons/1/14/Deadpool_2_Japan_Premiere_Red_Carpet_Ryan_Reynolds_%28cropped%29.jpg"
             }]
         }]
@@ -63,6 +66,7 @@ const cinesMock = [{
                     apellido: "Crowe",
                     sexo: "Masculino",
                     fechaNacimiento: "04/06/1970",
+                    paisOrigen: "estados Unidos",
                     foto: "../../assets/crowe.jpg"
                 },
                 {
@@ -71,6 +75,7 @@ const cinesMock = [{
                     apellido: "bettany",
                     sexo: "Masculino",
                     fechaNacimiento: "04/06/2000",
+                    paisOrigen: "estados Unidos",
                     foto: "../../assets/paul.jpg"
                 }
             ]
@@ -94,6 +99,7 @@ const cinesMock = [{
                         apellido: "Joungblood",
                         sexo: "Masculino",
                         fechaNacimiento: "04/06/2000",
+                        paisOrigen: "estados Unidos",
                         foto: "../../assets/rudy.jpg"
                     },
                     {
@@ -102,6 +108,7 @@ const cinesMock = [{
                         apellido: "Palacios",
                         sexo: "Masculino",
                         fechaNacimiento: "04/06/2000",
+                        paisOrigen: "estados Unidos",
                         foto: "../../assets/rodolfo.jpg"
                     }
                 ]
@@ -119,6 +126,7 @@ const cinesMock = [{
                         apellido: "Hopkins",
                         sexo: "Masculino",
                         fechaNacimiento: "04/06/2000",
+                        paisOrigen: "estados Unidos",
                         foto: "../../assets/antony.jpg"
                     },
                     {
@@ -127,6 +135,7 @@ const cinesMock = [{
                         apellido: "Baldwin",
                         sexo: "Masculino",
                         fechaNacimiento: "04/06/2000",
+                        paisOrigen: "estados Unidos",
                         foto: "../../assets/alec.jpg"
                     }
                 ]
@@ -151,6 +160,7 @@ const cinesMock = [{
                         apellido: "Es talon",
                         sexo: "Masculino",
                         fechaNacimiento: "04/06/2000",
+                        paisOrigen: "estados Unidos",
                         foto: "../../assets/sylvester.jpg"
                     },
                     {
@@ -159,6 +169,7 @@ const cinesMock = [{
                         apellido: "Frontera Dixon",
                         sexo: "Masculino",
                         fechaNacimiento: "04/06/2000",
+                        paisOrigen: "estados Unidos",
                         foto: "../../assets/mason.jpg"
                     }
                 ]
@@ -176,6 +187,7 @@ const cinesMock = [{
                         apellido: "Perez",
                         sexo: "Masculino",
                         fechaNacimiento: "04/06/2000",
+                        paisOrigen: "estados Unidos",
                         foto: "https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2020/03/12164026/Vin_Diesel_Countdown_Rep2.jpg"
                     },
                     {
@@ -184,6 +196,7 @@ const cinesMock = [{
                         apellido: "Walker",
                         sexo: "Masculino",
                         fechaNacimiento: "04/06/2000",
+                        paisOrigen: "estados Unidos",
                         foto: "https://zolfm.com/admin/imagenes/paul_walker_1-1572955487.jpg"
                     }
                 ]
@@ -208,6 +221,7 @@ const cinesMock = [{
                         apellido: "Perez",
                         sexo: "Masculino",
                         fechaNacimiento: "04/06/2000",
+                        paisOrigen: "estados Unidos",
                         foto: "https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2020/03/12164026/Vin_Diesel_Countdown_Rep2.jpg"
                     },
                     {
@@ -216,6 +230,7 @@ const cinesMock = [{
                         apellido: "Walker",
                         sexo: "Masculino",
                         fechaNacimiento: "04/06/2000",
+                        paisOrigen: "estados Unidos",
                         foto: "https://zolfm.com/admin/imagenes/paul_walker_1-1572955487.jpg"
                     }
                 ]
@@ -233,6 +248,7 @@ const cinesMock = [{
                         apellido: "Zorro",
                         sexo: "Masculino",
                         fechaNacimiento: "04/06/2000",
+                        paisOrigen: "estados Unidos",
                         foto: "../../assets/miguel.jpg"
                     },
                     {
@@ -241,6 +257,7 @@ const cinesMock = [{
                         apellido: "Brown",
                         sexo: "Masculino",
                         fechaNacimiento: "04/06/1800",
+                        paisOrigen: "estados Unidos",
                         foto: "../../assets/emmet.jpg"
                     }
                 ]
@@ -259,6 +276,7 @@ const cinesMock = [{
                         apellido: "Vandam",
                         sexo: "Masculino",
                         fechaNacimiento: "04/06/2000",
+                        paisOrigen: "estados Unidos",
                         foto: "../../assets/chanclon.jpg"
                     },
                     {
@@ -267,6 +285,7 @@ const cinesMock = [{
                         apellido: "Page",
                         sexo: "Masculino",
                         fechaNacimiento: "04/06/1800",
+                        paisOrigen: "estados Unidos",
                         foto: "../../assets/harrison.png"
                     }
                 ]
