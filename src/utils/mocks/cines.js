@@ -49,56 +49,30 @@ const cinesMock = [{
         foto: "https://www.elcomercio.com/files/article_main/uploads/2020/04/07/5e8ccce014854.jpeg",
         paisOrigen: "Argentina",
         peliculas: [{
-                id: 1,
-                nombre: "Rapidos y Furiosos 500",
-                tipo: "otros",
-                fechaEstreno: "2000-12-03",
-                cantidadPublico: 300000,
-                fotoPelicula: "https://static.misionesonline.news/wp-content/uploads/2020/03/16084200/rapidos-y-furiosos-9-coronavirus.jpeg",
-                actores: [{
-                        id: 1,
-                        nombre: "Vins Disels",
-                        apellido: "Perez",
-                        sexo: "Masculino",
-                        fechaNacimiento: "04/06/2000",
-                        foto: "https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2020/03/12164026/Vin_Diesel_Countdown_Rep2.jpg"
-                    },
-                    {
-                        id: 2,
-                        nombre: "Paulos",
-                        apellido: "Walkers",
-                        sexo: "Masculino",
-                        fechaNacimiento: "04/06/2000",
-                        foto: "https://zolfm.com/admin/imagenes/paul_walker_1-1572955487.jpg"
-                    }
-                ]
-            },
-            {
-                id: 2,
-                nombre: "Master and commander",
-                tipo: "drama",
-                fechaEstreno: "2000-00-00",
-                cantidadPublico: 50000,
-                fotoPelicula: "../../assets/master.jpg",
-                actores: [{
-                        id: 1,
-                        nombre: "Russel",
-                        apellido: "Crowe",
-                        sexo: "Masculino",
-                        fechaNacimiento: "04/06/1970",
-                        foto: "../../assets/crowe.jpg"
-                    },
-                    {
-                        id: 2,
-                        nombre: "paul",
-                        apellido: "bettany",
-                        sexo: "Masculino",
-                        fechaNacimiento: "04/06/2000",
-                        foto: "../../assets/paul.jpg"
-                    }
-                ]
-            }
-        ]
+            id: 1,
+            nombre: "Master and commander",
+            tipo: "drama",
+            fechaEstreno: "2000-00-00",
+            cantidadPublico: 50000,
+            fotoPelicula: "../../assets/master.jpg",
+            actores: [{
+                    id: 1,
+                    nombre: "Russel",
+                    apellido: "Crowe",
+                    sexo: "Masculino",
+                    fechaNacimiento: "04/06/1970",
+                    foto: "../../assets/crowe.jpg"
+                },
+                {
+                    id: 2,
+                    nombre: "paul",
+                    apellido: "bettany",
+                    sexo: "Masculino",
+                    fechaNacimiento: "04/06/2000",
+                    foto: "../../assets/paul.jpg"
+                }
+            ]
+        }]
     },
     {
         id: 3,
@@ -106,30 +80,56 @@ const cinesMock = [{
         foto: "https://www.tododisca.com/wp-content/uploads/2019/01/sala-de-cine-1000x600.jpg",
         paisOrigen: "Argentina",
         peliculas: [{
-            id: 1,
-            nombre: "Rapido y Furiosos 8888",
-            tipo: "otros",
-            fechaEstreno: "2000-12-03",
-            cantidadPublico: 300000,
-            fotoPelicula: "https://static.misionesonline.news/wp-content/uploads/2020/03/16084200/rapidos-y-furiosos-9-coronavirus.jpeg",
-            actores: [{
-                    id: 1,
-                    nombre: "Vin Fabian Disel",
-                    apellido: "Perez",
-                    sexo: "Masculino",
-                    fechaNacimiento: "04/06/2000",
-                    foto: "https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2020/03/12164026/Vin_Diesel_Countdown_Rep2.jpg"
-                },
-                {
-                    id: 2,
-                    nombre: "Paul Rafael",
-                    apellido: "Walker",
-                    sexo: "Masculino",
-                    fechaNacimiento: "04/06/2000",
-                    foto: "https://zolfm.com/admin/imagenes/paul_walker_1-1572955487.jpg"
-                }
-            ]
-        }]
+                id: 1,
+                nombre: "Apocalypto",
+                tipo: "otros",
+                fechaEstreno: "2000-12-03",
+                cantidadPublico: 9000,
+                fotoPelicula: "../../assets/apocalypto.jpg",
+                actores: [{
+                        id: 1,
+                        nombre: "Rudy",
+                        apellido: "Joungblood",
+                        sexo: "Masculino",
+                        fechaNacimiento: "04/06/2000",
+                        foto: "../../assets/rudy.jpg"
+                    },
+                    {
+                        id: 2,
+                        nombre: "Rodolfo",
+                        apellido: "Palacios",
+                        sexo: "Masculino",
+                        fechaNacimiento: "04/06/2000",
+                        foto: "../../assets/rodolfo.jpg"
+                    }
+                ]
+            },
+            {
+                id: 2,
+                nombre: "Al filo del peligro (the edge)",
+                tipo: "otros",
+                fechaEstreno: "2000-12-03",
+                cantidadPublico: 9000,
+                fotoPelicula: "../../assets/alfilo.jpg",
+                actores: [{
+                        id: 1,
+                        nombre: "Antony",
+                        apellido: "Hopkins",
+                        sexo: "Masculino",
+                        fechaNacimiento: "04/06/2000",
+                        foto: "../../assets/antony.jpg"
+                    },
+                    {
+                        id: 2,
+                        nombre: "Alec",
+                        apellido: "Baldwin",
+                        sexo: "Masculino",
+                        fechaNacimiento: "04/06/2000",
+                        foto: "../../assets/alec.jpg"
+                    }
+                ]
+            }
+        ]
     },
     {
         id: 4,
